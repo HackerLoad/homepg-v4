@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    background-color: #2C2F33;
+}
+
+/* NAVBAR */
+
+.headline {
+    background-color: #6f2bf4;
+    font-family: sf-pro-bold;
+    color: white;
+    padding-top: 12px;
+}
+
+.headline h1 {
+    background-color: #6f2bf4;
+}
+
+.navbar {
+    background-color: #6f2bf4;
+    font-family: sf-pro-medium;
+    color: lightgray;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+/* ABOUT */
+
+.about-me {
+    background-color: #2C2F33;
+    padding: 0;
+    margin: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.about-me h1 {
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: sf-pro-medium;
+    font-size: 48px;
+    padding-bottom: 16px;
+}
+
+.about-me p {
+    color: darkgray;
+    padding: 0;
+    margin: 0;
+    padding: 4px;
+    font-family: sf-pro-light;
+    font-size: medium;
+}
+
+
+/* FONTS */
+
+@font-face {
+    font-family: sf-pro-light;
+    src: url(../fonts/SFProDisplay-Light.ttf);
+}
+@font-face {
+    font-family: sf-pro-medium;
+    src: url(../fonts/SFProDisplay-Medium.ttf);
+}
+@font-face {
+    font-family: sf-pro-bold;
+    src: url(../fonts/SFProDisplay-Bold.ttf);
+}
