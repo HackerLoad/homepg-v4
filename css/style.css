@@ -28,9 +28,41 @@
     color: white;
 }
 
+/* LANDING */
+
+.landing {
+    height: 100%;
+    padding-top: 64px;
+    padding-bottom: 256px;
+}
+
+.landing h1 {
+    color: white;
+    font-family: sf-pro-medium;
+    padding: 0;
+    margin: 0;
+}
+
+.landing h2 {
+    color: darkgray;
+    font-family: sf-pro-medium;
+    padding: 0;
+    margin: 0;
+}
+
+.landing-btn {
+    margin: 16px;
+    padding: 8px 8px;
+    background-color: #6f2bf4;
+    color: white;
+    font-family: sf-pro-medium;
+    border-radius: 8px;
+    border: solid #6f2bf4;
+}
+
 /* ABOUT */
 
-.about-me {
+.about {
     background-color: #2C2F33;
     padding: 0;
     margin: 0;
@@ -38,7 +70,7 @@
     padding-bottom: 32px;
 }
 
-.about-me h1 {
+.about h1 {
     color: white;
     padding: 0;
     margin: 0;
@@ -47,7 +79,7 @@
     padding-bottom: 16px;
 }
 
-.about-me p {
+.about p {
     color: darkgray;
     padding: 0;
     margin: 0;
@@ -56,12 +88,11 @@
     font-size: medium;
 }
 
-.about-more {
-    background-color: #2C2F33;
+.knowlege {
     padding-top: 32px;
 }
 
-.about-more h1 {
+.knowlege h1 {
     color: white;
     padding: 0;
     margin: 0;
@@ -70,7 +101,7 @@
     padding-bottom: 16px;
 }
 
-.about-more h2 {
+.knowlege h2 {
     color: white;
     padding: 0;
     margin: 0;
@@ -80,16 +111,15 @@
     padding-bottom: 16px;
 }
 
-.about-more a {
+.knowlege a {
     margin: 0px 8px;
     font-size: 22px;
     color: gray;
 }
 
-.about-more a:hover {
+.knowlege a:hover {
     color: darkgray;
 }
-
 
 /* FONTS */
 
