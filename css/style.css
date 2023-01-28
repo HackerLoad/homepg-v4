@@ -67,7 +67,6 @@
     padding: 0;
     margin: 0;
     padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .about h1 {
@@ -90,6 +89,7 @@
 
 .knowlege {
     padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .knowlege h1 {
@@ -119,6 +119,112 @@
 
 .knowlege a:hover {
     color: darkgray;
+}
+
+/* PROJECTS */
+
+.projects {
+    background-color: #2C2F33;
+    padding: 0;
+    margin: 0;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.projects h1 {
+    color: white;
+    text-align: center;
+    font-family: sf-pro-medium;
+}
+
+.proj-top {
+    height: 256px;
+    width: 256px;
+    display: block;
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.proj-bottom h2 {
+    color: darkgray;
+    font-family: sf-pro-medium;
+    font-size: 39px;
+    padding: 0;
+    margin: 0;
+}
+
+.proj-bottom p {
+    color: gray;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.proj-bottom button {
+    margin-top: 12px;
+    width: 128px;
+    height: 48px;
+    color: darkgray;
+    font-family: sf-pro-medium;
+    border: 3px solid darkgray;
+    border-radius: 4px;
+}
+
+/* CONTACT */
+
+.contact {
+    background-color: #44484E;
+    padding: 0;
+    margin: 0;
+    padding-top: 256px;
+    padding-bottom: 256px;
+}
+
+.contact h1 {
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: sf-pro-medium;
+}
+
+.contact h2 {
+    color: darkgray;
+    padding: 0;
+    margin: 0;
+    font-family: sf-pro-medium;
+    font-size: 24px;
+    padding-bottom: 32px;
+}
+
+.contact p {
+    color: darkgray;
+    font-family: sf-pro-light;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+.contact a {
+    color: gray;
+    text-decoration: none;
+    font-family: sf-pro-light;
+}
+
+.contact a:hover {
+    color: #666;
+}
+
+/* FOOTER */
+
+footer p {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sf-pro-medium;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #6f2bf4;
 }
 
 /* FONTS */

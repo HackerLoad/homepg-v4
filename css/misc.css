@@ -34,6 +34,22 @@
     background-image: url(../svg/svg-3.svg);
 }
 
+.layer4 {
+    background-image: url(../svg/svg-4.svg);
+}
+
+.pf1b {
+    background-image: url(../src/proj1.png);
+}
+
+.cfy {
+    background-image: url(../src/proj2.png);
+}
+
+.ops {
+    background-image: url(../src/proj3.png);
+}
+
 /* COLOR */
 
 .gray,
