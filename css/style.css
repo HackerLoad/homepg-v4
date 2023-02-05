@@ -227,6 +227,65 @@ footer p {
     background-color: #6f2bf4;
 }
 
+
+/* PASCAL */
+
+.pascal {
+    padding-top: 22px;
+}
+
+.pascal h1{
+    text-align: center;
+    color: white;
+    font-family: sf-pro-medium;
+    padding-bottom: 32px;
+}
+
+.pascal-download {
+    height: 100%;
+    padding-bottom: 128px;
+}
+
+.pascal-download table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    text-align: center;
+    color: gray;
+    font-family: sf-pro-medium;
+}
+
+.pascal-download th {
+    border: 2px solid gray;
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+  
+.pascal-download td, th {
+    border: 2px solid gray;
+    text-align: center;
+    color: lightgray;
+    padding: 8px;
+    font-family: sf-pro-light;
+}
+  
+.pascal-download tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.pascal-download-btn {
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 5px 20px;
+    margin: 8px;
+    font-size: 14px;
+    font-family: sf-pro-medium;
+}
+
+
+
 /* FONTS */
 
 @font-face {
