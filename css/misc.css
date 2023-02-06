@@ -38,6 +38,10 @@
     background-image: url(../svg/svg-4.svg);
 }
 
+.layer5 {
+    background-image: url(../svg/svg-5.svg);
+}
+
 .pf1b {
     background-image: url(../src/proj1.png);
 }
@@ -53,6 +57,6 @@
 /* COLOR */
 
 .gray,
-    .gray h1, .gray h2, .gray p, .gray a, .gray i{  
+    .gray h1, .gray h2, .gray h3, .gray p, .gray a, .gray i{  
     background-color: #44484E;
 }
