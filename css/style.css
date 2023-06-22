@@ -73,7 +73,7 @@
     color: white;
     padding: 0;
     margin: 0;
-    font-family: sf-pro-medium;
+    font-family: sf-pro-bold;
     font-size: 48px;
     padding-bottom: 16px;
 }
@@ -133,9 +133,6 @@
 /* PROJECTS */
 
 .projects {
-    background-color: #2C2F33;
-    padding: 0;
-    margin: 0;
     padding-top: 128px;
     padding-bottom: 128px;
 }
@@ -143,42 +140,66 @@
 .projects h1 {
     color: white;
     text-align: center;
-    font-family: sf-pro-medium;
+    padding-bottom: 128px;
+
+    font-family: sf-pro-bold;
 }
 
-.proj-top {
-    height: 256px;
+.projects-div {
     width: 256px;
-    display: block;
-    margin-top: 64px;
     margin-left: auto;
     margin-right: auto;
-}
 
-.proj-bottom h2 {
-    color: darkgray;
     font-family: sf-pro-medium;
-    font-size: 39px;
-    padding: 0;
-    margin: 0;
 }
 
-.proj-bottom p {
-    color: gray;
-    padding: 0;
-    margin: 0;
-    padding-bottom: 8px;
+.projects-img-1 {
+    background-image: url(../src/proj1.png);
+    height: 256px;
+    width: 256px;
 }
 
-.proj-bottom button {
-    margin-top: 12px;
-    width: 128px;
-    height: 48px;
+.projects-img-2 {
+    background-image: url(../src/proj2.png);
+    height: 256px;
+    width: 256px;
+}
+
+.projects-img-3 {
+    background-image: url(../src/proj3.png);
+    height: 256px;
+    width: 256px;
+}
+
+.projects-img-4 {
+    background-image: url(../src/proj1.png);
+    height: 256px;
+    width: 256px;
+}
+
+.projects-bottom {
+    width: 256px;
+}
+
+.projects-bottom h2 {
+    color: white;
+}
+
+.projects-bottom p {
     color: darkgray;
-    font-family: sf-pro-medium;
-    border: 3px solid darkgray;
-    border-radius: 4px;
 }
+
+.projects-bottom button {
+    padding: 8px 12px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.projects-bottom a:hover {
+    text-decoration: none;
+}
+
 
 /* CONTACT */
 
@@ -194,7 +215,7 @@
     color: white;
     padding: 0;
     margin: 0;
-    font-family: sf-pro-medium;
+    font-family: sf-pro-bold;
 }
 
 .contact h2 {
