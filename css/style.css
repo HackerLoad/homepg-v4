@@ -315,7 +315,37 @@ footer p {
     font-family: sf-pro-medium;
 }
 
+/* PROJECT-OVERVIEW */
 
+.projects-overview h1 {
+    color: white;
+    text-align: center;
+    font-family: sf-pro-bold;
+    padding-bottom: 64px;
+}
+
+.projects-overview-project {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sf-pro-medium;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.projects-overview-project h2 {
+    color: white;
+}
+
+.projects-overview-project p {
+    color: darkgray;
+}
+
+.projects-overview-project button {
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
 
 /* FONTS */
 
